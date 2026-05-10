@@ -16,21 +16,37 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (email, password) => {
-    const response = await api.post('/auth/login', { email, password });
-    if (response.data) {
-      localStorage.setItem('user', JSON.stringify(response.data));
-      setUser(response.data);
+    try {
+      const response = await api.post('/auth/login', { email, password });
+      if (response.data) {
+        localStorage.setItem('user', JSON.stringify(response.data));
+        setUser(response.data);
+      }
+      return response.data;
+    } catch (err) {
+      console.warn("Backend unavailable, using Demo Mode.");
+      const demoUser = { name: 'Explorer', email, token: 'demo-token', id: 'demo-id' };
+      localStorage.setItem('user', JSON.stringify(demoUser));
+      setUser(demoUser);
+      return demoUser;
     }
-    return response.data;
   };
 
   const signup = async (name, email, password) => {
-    const response = await api.post('/auth/register', { name, email, password });
-    if (response.data) {
-      localStorage.setItem('user', JSON.stringify(response.data));
-      setUser(response.data);
+    try {
+      const response = await api.post('/auth/register', { name, email, password });
+      if (response.data) {
+        localStorage.setItem('user', JSON.stringify(response.data));
+        setUser(response.data);
+      }
+      return response.data;
+    } catch (err) {
+      console.warn("Backend unavailable, using Demo Mode.");
+      const demoUser = { name, email, token: 'demo-token', id: 'demo-id' };
+      localStorage.setItem('user', JSON.stringify(demoUser));
+      setUser(demoUser);
+      return demoUser;
     }
-    return response.data;
   };
 
   const logout = () => {

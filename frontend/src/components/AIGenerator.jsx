@@ -149,7 +149,7 @@ const AIGenerator = ({ onItineraryGenerated, onClose }) => {
                         <div key={aIdx} className="flex items-center text-sm text-slate-600 bg-white p-2 rounded-lg shadow-sm">
                           <ChevronRight className="w-4 h-4 text-blue-500 mr-2" />
                           <span>{act.title}</span>
-                          <span className="ml-auto font-bold text-teal-600 text-xs">${act.cost}</span>
+                          <span className="ml-auto font-bold text-teal-600 text-xs">₹ {new Intl.NumberFormat('en-IN').format(act.cost)}</span>
                         </div>
                       ))}
                     </div>

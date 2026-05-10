@@ -115,8 +115,18 @@ const SortableStop = ({ stop, sIdx, removeStop, removeActivity, addActivity, wea
           {stop.activities.map((activity, aIdx) => (
             <div key={aIdx} className="flex items-center justify-between p-4 bg-slate-50/50 rounded-2xl group/item border border-transparent hover:border-slate-100 transition-all">
               <div className="flex items-center space-x-4">
-                <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm text-[10px] font-black text-blue-600 uppercase border border-slate-50">
-                  {activity.category ? activity.category.substring(0, 2) : 'OT'}
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center shadow-sm text-[10px] font-black border border-slate-50 ${
+                  activity.category === 'Stay' ? 'bg-blue-50 text-blue-600' :
+                  activity.category === 'Transport' ? 'bg-orange-50 text-orange-600' :
+                  activity.category === 'Food' ? 'bg-teal-50 text-teal-600' :
+                  activity.category === 'Activities' ? 'bg-purple-50 text-purple-600' :
+                  'bg-slate-50 text-slate-600'
+                }`}>
+                  {activity.category === 'Stay' ? <Briefcase className="w-5 h-5" /> :
+                   activity.category === 'Transport' ? <Plane className="w-5 h-5" /> :
+                   activity.category === 'Food' ? <ShoppingBag className="w-5 h-5" /> :
+                   activity.category === 'Activities' ? <Sparkles className="w-5 h-5" /> :
+                   <Tag className="w-5 h-5" />}
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-800 leading-tight">{activity.title}</h4>
