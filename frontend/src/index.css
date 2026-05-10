@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb;
+  --color-secondary: #14b8a6;
+  --color-accent: #fb923c;
+  --font-sans: 'Inter', sans-serif;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(-5%); animation-timing-function: cubic-bezier(0.8, 0, 1, 1); }
+  50% { transform: translateY(0); animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s infinite;
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+
+body {
+  @apply bg-white text-slate-900 font-sans antialiased;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-2xl font-bold transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:pointer-events-none tracking-tight;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 shadow-xl shadow-blue-100 hover:shadow-blue-200;
+}
+
+.btn-secondary {
+  @apply bg-teal-500 text-white hover:bg-teal-600 shadow-xl shadow-teal-50 hover:shadow-teal-100;
+}
+
+.btn-outline {
+  @apply border-2 border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300;
+}
+
+.card {
+  @apply bg-white rounded-[40px] shadow-sm border border-slate-100 overflow-hidden transition-all duration-500;
+}
+
+.card-hover {
+  @apply hover:shadow-2xl hover:shadow-slate-200 hover:-translate-y-2;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-xl border border-white/40;
+}
+
+.shadow-premium {
+  @apply shadow-[0_20px_50px_rgba(8,_112,_184,_0.05)];
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-500;
+}
+
+.input-field {
+  @apply w-full px-5 py-4 rounded-2xl border border-slate-200 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-4 focus:ring-blue-100 focus:border-blue-400 transition-all font-bold placeholder:text-slate-400 text-slate-700;
+}
+
+.input-with-icon {
+  padding-left: 4rem !important;
+}
+
+/* Timeline Components */
+.timeline-item::before {
+  content: '';
+  @apply absolute left-[27px] top-10 bottom-[-40px] w-0.5 bg-slate-100 z-0;
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+
