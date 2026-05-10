@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Goa Beach Bliss",
+    "destination": "Goa, India",
+    "duration": 4,
+    "estimatedBudget": 35000,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "North Goa",
+        "activities": [
+          { "title": "Baga Beach Sunset", "category": "Activities", "cost": 0, "notes": "Enjoy the vibe" },
+          { "title": "Beach Shack Dinner", "category": "Food", "cost": 2500, "notes": "Fresh seafood" },
+          { "title": "Boutique Resort Stay", "category": "Stay", "cost": 12000, "notes": "3 nights in North Goa" },
+          { "title": "Airport Transfer", "category": "Transport", "cost": 1500, "notes": "Private cab" }
+        ]
+      },
+      {
+        "city": "South Goa",
+        "activities": [
+          { "title": "Palolem Beach Relaxing", "category": "Activities", "cost": 0, "notes": "Quiet and peaceful" },
+          { "title": "Kayaking", "category": "Activities", "cost": 1500, "notes": "Morning session" },
+          { "title": "Scooter Rental", "category": "Transport", "cost": 2000, "notes": "For 4 days" },
+          { "title": "Misc Expenses", "category": "Misc", "cost": 3500, "notes": "Shopping and tips" },
+          { "title": "Food & Drinks", "category": "Food", "cost": 12000, "notes": "All meals" }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Sunscreen", "Swimwear", "Flip flops", "Sunglasses", "Beach towel"]
+  },
+  {
+    "title": "Manali Adventure",
+    "destination": "Manali, India",
+    "duration": 5,
+    "estimatedBudget": 28500,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "Manali Town",
+        "activities": [
+          { "title": "Old Manali Cafe Crawl", "category": "Food", "cost": 3000, "notes": "Must try local food" },
+          { "title": "Hadimba Temple Visit", "category": "Activities", "cost": 500, "notes": "Ancient temple" },
+          { "title": "Riverside Cottage", "category": "Stay", "cost": 10000, "notes": "4 nights" }
+        ]
+      },
+      {
+        "city": "Solang Valley",
+        "activities": [
+          { "title": "Paragliding", "category": "Activities", "cost": 4500, "notes": "High adrenaline" },
+          { "title": "ATV Ride", "category": "Activities", "cost": 1500, "notes": "Snow tracks" },
+          { "title": "Local Transport", "category": "Transport", "cost": 4000, "notes": "Cabs for sightseeing" },
+          { "title": "Misc & Gear Rental", "category": "Misc", "cost": 2000, "notes": "Warm clothes rental" },
+          { "title": "Food Budget", "category": "Food", "cost": 3000, "notes": "Daily meals" }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Warm Jacket", "Trekking shoes", "Woolen socks", "Gloves", "Thermals"]
+  },
+  {
+    "title": "Dubai Luxury Tour",
+    "destination": "Dubai, UAE",
+    "duration": 6,
+    "estimatedBudget": 185000,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8870a?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "Downtown Dubai",
+        "activities": [
+          { "title": "Burj Khalifa 148th Floor", "category": "Activities", "cost": 12000, "notes": "At the top SKY" },
+          { "title": "Desert Safari with Dinner", "category": "Activities", "cost": 8000, "notes": "Luxury desert camp" },
+          { "title": "5-Star Hotel Stay", "category": "Stay", "cost": 90000, "notes": "5 nights" },
+          { "title": "Private Chauffeur", "category": "Transport", "cost": 25000, "notes": "For the whole trip" },
+          { "title": "Fine Dining Experience", "category": "Food", "cost": 30000, "notes": "Premium restaurants" },
+          { "title": "Shopping Budget", "category": "Misc", "cost": 20000, "notes": "Dubai Mall" }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Light clothing", "Power adapter", "Formal wear", "Camera", "Luxury perfume"]
+  },
+  {
+    "title": "Thailand Island Hopper",
+    "destination": "Phuket & Krabi",
+    "duration": 7,
+    "estimatedBudget": 65000,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1528181304800-2f140819898f?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "Phuket",
+        "activities": [
+          { "title": "Phi Phi Islands Tour", "category": "Activities", "cost": 6000, "notes": "Full day speedboat" },
+          { "title": "Street Food Tour", "category": "Food", "cost": 4000, "notes": "Night market" },
+          { "title": "Beachfront Villa", "category": "Stay", "cost": 20000, "notes": "3 nights" }
+        ]
+      },
+      {
+        "city": "Krabi",
+        "activities": [
+          { "title": "Railay Beach Climbing", "category": "Activities", "cost": 3000, "notes": "Intro session" },
+          { "title": "Inter-city Transfers", "category": "Transport", "cost": 5000, "notes": "Ferries and taxis" },
+          { "title": "Resort Stay", "category": "Stay", "cost": 15000, "notes": "3 nights" },
+          { "title": "Misc Expenses", "category": "Misc", "cost": 12000, "notes": "Entry fees & spa" }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Cotton clothes", "Rain poncho", "Backpack", "Universal adapter", "Walking shoes"]
+  },
+  {
+    "title": "Leh-Ladakh Road Trip",
+    "destination": "Leh, Ladakh",
+    "duration": 8,
+    "estimatedBudget": 48000,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1581791534721-e599df4417f7?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "Leh",
+        "activities": [
+          { "title": "Magnetic Hill & Shanti Stupa", "category": "Activities", "cost": 1000, "notes": "Sightseeing" },
+          { "title": "Pangong Lake Camping", "category": "Activities", "cost": 8000, "notes": "Luxury tents" },
+          { "title": "Bike Rental (Royal Enfield)", "category": "Transport", "cost": 15000, "notes": "7 days with fuel" },
+          { "title": "Guest House Stays", "category": "Stay", "cost": 12000, "notes": "7 nights" },
+          { "title": "Food & Supplies", "category": "Food", "cost": 8000, "notes": "Mountain meals" },
+          { "title": "Permits & Misc", "category": "Misc", "cost": 4000, "notes": "ILP and park fees" }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Oxygen cylinder", "Sunscreen", "Heavy layers", "Action camera", "Fuel cans"]
+  },
+  {
+    "title": "Kerala Nature Escape",
+    "destination": "Munnar & Alleppey",
+    "duration": 5,
+    "estimatedBudget": 42000,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1593179241557-b0430a58f89a?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "Munnar",
+        "activities": [
+          { "title": "Tea Plantation Walk", "category": "Activities", "cost": 1000, "notes": "Guided tour" },
+          { "title": "Hill Resort Stay", "category": "Stay", "cost": 12000, "notes": "2 nights" }
+        ]
+      },
+      {
+        "city": "Alleppey",
+        "activities": [
+          { "title": "Private Houseboat", "category": "Stay", "cost": 18000, "notes": "Full board stay" },
+          { "title": "Taxi for Entire Trip", "category": "Transport", "cost": 6000, "notes": "Cochi to Kochi" },
+          { "title": "Misc & Entry Fees", "category": "Misc", "cost": 5000, "notes": "Kathakali show etc." }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Umbrella", "Comfortable walking shoes", "Light jacket", "Camera lens", "Antiseptic cream"]
+  },
+  {
+    "title": "Rajasthan Heritage Tour",
+    "destination": "Jaipur & Udaipur",
+    "duration": 6,
+    "estimatedBudget": 55000,
+    "currency": "INR",
+    "coverImage": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&q=80&w=1200",
+    "stops": [
+      {
+        "city": "Jaipur",
+        "activities": [
+          { "title": "Amer Fort & City Palace", "category": "Activities", "cost": 3000, "notes": "Heritage walk" },
+          { "title": "Chokhi Dhani Experience", "category": "Food", "cost": 2000, "notes": "Dinner & Culture" },
+          { "title": "Haveli Stay", "category": "Stay", "cost": 10000, "notes": "2 nights" }
+        ]
+      },
+      {
+        "city": "Udaipur",
+        "activities": [
+          { "title": "Lake Pichola Boat Ride", "category": "Activities", "cost": 2000, "notes": "Sunset view" },
+          { "title": "Heritage Lake Hotel", "category": "Stay", "cost": 15000, "notes": "3 nights" },
+          { "title": "Inter-city Luxury Bus", "category": "Transport", "cost": 8000, "notes": "AC Sleeper" },
+          { "title": "Food & Shopping", "category": "Misc", "cost": 15000, "notes": "Handicrafts & meals" }
+        ]
+      }
+    ],
+    "defaultPackingItems": ["Ethnic wear", "Turban/Hat", "Sunblock", "Hand sanitizer", "Cultural guide book"]
+  }
+]
